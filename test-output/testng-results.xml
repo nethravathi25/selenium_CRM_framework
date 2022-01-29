@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-29T14:12:37 IST" name="Suite" finished-at="2022-01-29T14:12:37 IST" duration-ms="164">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactTest.CreateContactTest()[pri:0, instance:ComCast.ContactTest.CreateContactTest@34f7cfd9]" name="CreateContactTest" class="ComCast.ContactTest.CreateContactTest"/>
+        <method signature="CreateOrgsTest.orgTest()[pri:0, instance:ComCast.OrgTest.CreateOrgsTest@41fecb8b]" name="orgTest" class="ComCast.OrgTest.CreateOrgsTest"/>
+        <method signature="CreateOrgwithIndTest.CreateOrgwithIndTest()[pri:0, instance:ComCast.OrgTest.CreateOrgwithIndTest@120f102b]" name="CreateOrgwithIndTest" class="ComCast.OrgTest.CreateOrgwithIndTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateContactWithOrgTest.CreateContactWithOrgTest()[pri:0, instance:ComCast.ContactTest.CreateContactWithOrgTest@272ed83b]" name="CreateContactWithOrgTest" class="ComCast.ContactTest.CreateContactWithOrgTest"/>
+        <method signature="CreateOrgsTest.CreateOrgsTest()[pri:0, instance:ComCast.OrgTest.CreateOrgsTest@41fecb8b]" name="CreateOrgsTest" class="ComCast.OrgTest.CreateOrgsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-01-29T14:12:37 IST" name="Test" finished-at="2022-01-29T14:12:37 IST" duration-ms="164">
+      <class name="ComCast.ContactTest.CreateContactWithOrgTest">
+        <test-method signature="CreateContactWithOrgTest()[pri:0, instance:ComCast.ContactTest.CreateContactWithOrgTest@272ed83b]" started-at="2022-01-29T14:12:37 IST" name="CreateContactWithOrgTest" finished-at="2022-01-29T14:12:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrgTest -->
+      </class> <!-- ComCast.ContactTest.CreateContactWithOrgTest -->
+      <class name="ComCast.OrgTest.CreateOrgwithIndTest">
+        <test-method signature="CreateOrgwithIndTest()[pri:0, instance:ComCast.OrgTest.CreateOrgwithIndTest@120f102b]" started-at="2022-01-29T14:12:37 IST" name="CreateOrgwithIndTest" finished-at="2022-01-29T14:12:37 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgwithIndTest -->
+      </class> <!-- ComCast.OrgTest.CreateOrgwithIndTest -->
+      <class name="ComCast.ContactTest.CreateContactTest">
+        <test-method signature="CreateContactTest()[pri:0, instance:ComCast.ContactTest.CreateContactTest@34f7cfd9]" started-at="2022-01-29T14:12:37 IST" name="CreateContactTest" finished-at="2022-01-29T14:12:37 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+      </class> <!-- ComCast.ContactTest.CreateContactTest -->
+      <class name="ComCast.OrgTest.CreateOrgsTest">
+        <test-method signature="CreateOrgsTest()[pri:0, instance:ComCast.OrgTest.CreateOrgsTest@41fecb8b]" started-at="2022-01-29T14:12:37 IST" name="CreateOrgsTest" finished-at="2022-01-29T14:12:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgsTest -->
+        <test-method signature="orgTest()[pri:0, instance:ComCast.OrgTest.CreateOrgsTest@41fecb8b]" started-at="2022-01-29T14:12:37 IST" name="orgTest" finished-at="2022-01-29T14:12:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgTest -->
+      </class> <!-- ComCast.OrgTest.CreateOrgsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
